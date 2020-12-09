@@ -81,4 +81,4 @@ class Controller(QtWidgets.QMainWindow, Ui_MainWindow):
 app = QtWidgets.QApplication(sys.argv)
 Cont = Controller()
 Cont.show()
-app.exec()
+app.exec_()
