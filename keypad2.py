@@ -914,6 +914,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setProperty("setWindowFlags", _translate("MainWindow", "(Qt::Window | Qt::FramelessWindowHint)"))
         self.Button1.setText(_translate("MainWindow", "1"))
         self.Button2.setText(_translate("MainWindow", "2"))
         self.Button3.setText(_translate("MainWindow", "3"))
