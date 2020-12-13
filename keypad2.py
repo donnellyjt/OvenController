@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'keypad3.ui'
+# Form implementation generated from reading ui file 'Keypad5.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.1
 #
@@ -18,6 +18,7 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(460, 320))
         MainWindow.setMaximumSize(QtCore.QSize(460, 320))
         MainWindow.setStyleSheet("background-color: rgb(98, 98, 98);")
+        MainWindow.setProperty("showmaximised()", "")
         self.widget = QtWidgets.QWidget(MainWindow)
         self.widget.setAutoFillBackground(False)
         self.widget.setObjectName("widget")
@@ -928,3 +929,13 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" color:#ffffff;\">Set Temp</span></p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" color:#ffffff;\">Actual Temp</span></p></body></html>"))
         self.SetTemp.setText(_translate("MainWindow", "350"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
