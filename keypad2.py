@@ -903,6 +903,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.widget)
 
         self.retranslateUi(MainWindow)
+        self.SetTemp.textEdited['QString'].connect(self.ActualTemp.setText)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
