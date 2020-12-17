@@ -22,61 +22,61 @@ class Controller(QtWidgets.QMainWindow, Ui_MainWindow):
         self.uif.ButtonClear.pressed.connect(self.btn_clear)
 
     def btn_one(self):
-        str = self.uif.SetTemp.text()
-        str += '1'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '1'
+        self.uif.SetTemp.setText(value)
 
     def btn_two(self):
-        str = self.uif.SetTemp.text()
-        str += '2'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '2'
+        self.uif.SetTemp.setText(value)
 
     def btn_three(self):
-        str = self.uif.SetTemp.text()
-        str += '3'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '3'
+        self.uif.SetTemp.setText(value)
 
     def btn_four(self):
-        str = self.uif.SetTemp.text()
-        str += '4'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '4'
+        self.uif.SetTemp.setText(value)
 
     def btn_five(self):
-        str = self.uif.SetTemp.text()
-        str += '5'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '5'
+        self.uif.SetTemp.setText(value)
 
     def btn_six(self):
-        str = self.uif.SetTemp.text()
-        str += '6'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '6'
+        self.uif.SetTemp.setText(value)
 
     def btn_seven(self):
-        str = self.uif.SetTemp.text()
-        str += '7'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '7'
+        self.uif.SetTemp.setText(value)
 
     def btn_eight(self):
-        str = self.uif.SetTemp.text()
-        str += '8'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '8'
+        self.uif.SetTemp.setText(value)
 
     def btn_nine(self):
-        str = self.uif.SetTemp.text()
-        str += '9'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '9'
+        self.uif.SetTemp.setText(value)
 
     def btn_zero(self):
-        str = self.uif.SetTemp.text()
-        str += '0'
-        self.uif.SetTemp.setText(str)
+        value = self.uif.SetTemp.text()
+        value += '0'
+        self.uif.SetTemp.setText(value)
 
     def btn_clear(self):
-        str = ''
-        self.uif.SetTemp.setText(str)
+        value = ''
+        self.uif.SetTemp.setText(value)
 
     def btn_enter(self):
-        str = self.uif.SetTemp.text()
+        self.uif.SetTemp.text()
 
 app = QtWidgets.QApplication(sys.argv)
 Cont = Controller()
